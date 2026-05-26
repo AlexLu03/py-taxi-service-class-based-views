@@ -10,7 +10,7 @@
             {% for driver in drivers %}
                 <tr>
                     <td>
-                        <a href="{% url 'driver-detail' driver.id %}">
+                        <a href="{% url 'taxi:driver-detail' driver.id %}">
                             {{driver.username}}
                         </a>
                     </td>
